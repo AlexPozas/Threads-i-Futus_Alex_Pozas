@@ -9,36 +9,37 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller0">
    <children>
-      <Text layoutX="119.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vista 0" textAlignment="CENTER" wrappingWidth="560.13671875" AnchorPane.leftAnchor="119.0" AnchorPane.topAnchor="14.0">
+      <Text layoutX="112.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vista 0" textAlignment="CENTER" wrappingWidth="560.13671875">
          <font>
             <Font size="35.0" />
          </font>
       </Text>
-      <Button fx:id="button0" layoutX="685.0" layoutY="20.0" mnemonicParsing="false" onAction="#animateToView1" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: white;" text="Vista 1 &gt;" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="20.0">
+      <Button fx:id="button0" layoutX="586.0" layoutY="14.0" mnemonicParsing="false" onAction="#animateToView1" style="-fx-background-color: white;" text="Vista 1 &gt;" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="button1" layoutX="492.0" layoutY="189.0" mnemonicParsing="false" onAction="#runTask" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="Iniciar">
+      <Button fx:id="button1" layoutX="517.0" layoutY="216.0" mnemonicParsing="false" onAction="#runTask" prefHeight="66.0" prefWidth="125.0" style="-fx-background-color: white;" text="Iniciar">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="button2" layoutX="492.0" layoutY="300.0" mnemonicParsing="false" onAction="#runTask2" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="Iniciar">
+      <Label fx:id="percentatge0" alignment="CENTER" layoutX="140.0" layoutY="231.0" text="0%" textAlignment="CENTER" />
+      <Label fx:id="percentatge1" alignment="CENTER" layoutX="140.0" layoutY="300.0" text="0%" />
+      <ProgressBar fx:id="progressBar0" layoutX="128.0" layoutY="249.0" prefHeight="30.0" prefWidth="358.0" progress="0.0" />
+      <ProgressBar fx:id="progressBar1" layoutX="128.0" layoutY="318.0" prefHeight="30.0" prefWidth="358.0" progress="0.0" />
+      <ProgressBar fx:id="progressBar2" layoutX="128.0" layoutY="389.0" prefHeight="30.0" prefWidth="358.0" progress="0.0" />
+      <Label fx:id="percentatge2" alignment="CENTER" layoutX="140.0" layoutY="364.0" text="0%" />
+      <Button fx:id="button2" layoutX="517.0" layoutY="302.0" mnemonicParsing="false" onAction="#runTask1" prefHeight="58.0" prefWidth="126.0" style="-fx-background-color: white;" text="Iniciar">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="button3" layoutX="492.0" layoutY="416.0" mnemonicParsing="false" onAction="#runTask3" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="Iniciar">
+      <Button fx:id="button3" layoutX="517.0" layoutY="373.0" mnemonicParsing="false" onAction="#runTask2" prefHeight="58.0" prefWidth="126.0" style="-fx-background-color: white;" text="Iniciar">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <ProgressBar fx:id="progres1" layoutX="82.0" layoutY="196.0" prefHeight="26.0" prefWidth="363.0" progress="0.0" />
-      <Label fx:id="percentatge0"  layoutX="82.0" layoutY="172.0" text="Label" />
-      <ProgressBar fx:id="progres2" layoutX="82.0" layoutY="307.0" prefHeight="26.0" prefWidth="363.0" progress="0.0" />
-      <Label fx:id="percentatge1" layoutX="82.0" layoutY="282.0" text="Label" />
-      <ProgressBar fx:id="progres3" layoutX="82.0" layoutY="423.0" prefHeight="26.0" prefWidth="363.0" progress="0.0" />
-      <Label fx:id="percentatge2" layoutX="82.0" layoutY="407.0" text="Label" />
+      
    </children>
 </AnchorPane>
